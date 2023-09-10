@@ -1,0 +1,17 @@
+P:\Api\MyTestApi\MyTestApi.Service\bin\Debug\net7.0\MyTestApi.Service.deps.json
+P:\Api\MyTestApi\MyTestApi.Service\bin\Debug\net7.0\MyTestApi.Service.dll
+P:\Api\MyTestApi\MyTestApi.Service\bin\Debug\net7.0\MyTestApi.Service.pdb
+P:\Api\MyTestApi\MyTestApi.Service\bin\Debug\net7.0\MyTestApi.Repository.Abstraction.dll
+P:\Api\MyTestApi\MyTestApi.Service\bin\Debug\net7.0\MyTestApi.Service.Abstraction.dll
+P:\Api\MyTestApi\MyTestApi.Service\bin\Debug\net7.0\MyTestApi.Repository.Abstraction.pdb
+P:\Api\MyTestApi\MyTestApi.Service\bin\Debug\net7.0\MyTestApi.Service.Abstraction.pdb
+P:\Api\MyTestApi\MyTestApi.Service\obj\Debug\net7.0\MyTestApi.Service.csproj.AssemblyReference.cache
+P:\Api\MyTestApi\MyTestApi.Service\obj\Debug\net7.0\MyTestApi.Service.GeneratedMSBuildEditorConfig.editorconfig
+P:\Api\MyTestApi\MyTestApi.Service\obj\Debug\net7.0\MyTestApi.Service.AssemblyInfoInputs.cache
+P:\Api\MyTestApi\MyTestApi.Service\obj\Debug\net7.0\MyTestApi.Service.AssemblyInfo.cs
+P:\Api\MyTestApi\MyTestApi.Service\obj\Debug\net7.0\MyTestApi.Service.csproj.CoreCompileInputs.cache
+P:\Api\MyTestApi\MyTestApi.Service\obj\Debug\net7.0\MyTestApi.Service.csproj.CopyComplete
+P:\Api\MyTestApi\MyTestApi.Service\obj\Debug\net7.0\MyTestApi.Service.dll
+P:\Api\MyTestApi\MyTestApi.Service\obj\Debug\net7.0\refint\MyTestApi.Service.dll
+P:\Api\MyTestApi\MyTestApi.Service\obj\Debug\net7.0\MyTestApi.Service.pdb
+P:\Api\MyTestApi\MyTestApi.Service\obj\Debug\net7.0\ref\MyTestApi.Service.dll

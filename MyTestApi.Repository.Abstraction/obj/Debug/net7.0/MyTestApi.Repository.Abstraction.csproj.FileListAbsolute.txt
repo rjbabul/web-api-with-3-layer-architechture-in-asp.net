@@ -1,0 +1,12 @@
+P:\Api\MyTestApi\MyTestApi.Repository.Abstraction\bin\Debug\net7.0\MyTestApi.Repository.Abstraction.deps.json
+P:\Api\MyTestApi\MyTestApi.Repository.Abstraction\bin\Debug\net7.0\MyTestApi.Repository.Abstraction.dll
+P:\Api\MyTestApi\MyTestApi.Repository.Abstraction\bin\Debug\net7.0\MyTestApi.Repository.Abstraction.pdb
+P:\Api\MyTestApi\MyTestApi.Repository.Abstraction\obj\Debug\net7.0\MyTestApi.Repository.Abstraction.csproj.AssemblyReference.cache
+P:\Api\MyTestApi\MyTestApi.Repository.Abstraction\obj\Debug\net7.0\MyTestApi.Repository.Abstraction.GeneratedMSBuildEditorConfig.editorconfig
+P:\Api\MyTestApi\MyTestApi.Repository.Abstraction\obj\Debug\net7.0\MyTestApi.Repository.Abstraction.AssemblyInfoInputs.cache
+P:\Api\MyTestApi\MyTestApi.Repository.Abstraction\obj\Debug\net7.0\MyTestApi.Repository.Abstraction.AssemblyInfo.cs
+P:\Api\MyTestApi\MyTestApi.Repository.Abstraction\obj\Debug\net7.0\MyTestApi.Repository.Abstraction.csproj.CoreCompileInputs.cache
+P:\Api\MyTestApi\MyTestApi.Repository.Abstraction\obj\Debug\net7.0\MyTestApi.Repository.Abstraction.dll
+P:\Api\MyTestApi\MyTestApi.Repository.Abstraction\obj\Debug\net7.0\refint\MyTestApi.Repository.Abstraction.dll
+P:\Api\MyTestApi\MyTestApi.Repository.Abstraction\obj\Debug\net7.0\MyTestApi.Repository.Abstraction.pdb
+P:\Api\MyTestApi\MyTestApi.Repository.Abstraction\obj\Debug\net7.0\ref\MyTestApi.Repository.Abstraction.dll

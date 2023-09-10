@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "MyTestApi.Repository.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/MyTestApi.Repository.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyTestApi.Repository.Abstraction.dll": {}
+        }
+      },
+      "MyTestApi.Service.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/MyTestApi.Service.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyTestApi.Service.Abstraction.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyTestApi.Repository.Abstraction/1.0.0": {
+      "type": "project",
+      "path": "../MyTestApi.Repository.Abstraction/MyTestApi.Repository.Abstraction.csproj",
+      "msbuildProject": "../MyTestApi.Repository.Abstraction/MyTestApi.Repository.Abstraction.csproj"
+    },
+    "MyTestApi.Service.Abstraction/1.0.0": {
+      "type": "project",
+      "path": "../MyTestApi.Service.Abstraction/MyTestApi.Service.Abstraction.csproj",
+      "msbuildProject": "../MyTestApi.Service.Abstraction/MyTestApi.Service.Abstraction.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "MyTestApi.Repository.Abstraction >= 1.0.0",
+      "MyTestApi.Service.Abstraction >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\babul\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "P:\\Api\\MyTestApi\\MyTestApi.Service\\MyTestApi.Service.csproj",
+      "projectName": "MyTestApi.Service",
+      "projectPath": "P:\\Api\\MyTestApi\\MyTestApi.Service\\MyTestApi.Service.csproj",
+      "packagesPath": "C:\\Users\\babul\\.nuget\\packages\\",
+      "outputPath": "P:\\Api\\MyTestApi\\MyTestApi.Service\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\babul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "P:\\Api\\MyTestApi\\MyTestApi.Repository.Abstraction\\MyTestApi.Repository.Abstraction.csproj": {
+              "projectPath": "P:\\Api\\MyTestApi\\MyTestApi.Repository.Abstraction\\MyTestApi.Repository.Abstraction.csproj"
+            },
+            "P:\\Api\\MyTestApi\\MyTestApi.Service.Abstraction\\MyTestApi.Service.Abstraction.csproj": {
+              "projectPath": "P:\\Api\\MyTestApi\\MyTestApi.Service.Abstraction\\MyTestApi.Service.Abstraction.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

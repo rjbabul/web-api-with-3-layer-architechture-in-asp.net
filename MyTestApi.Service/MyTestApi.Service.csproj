@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyTestApi.Repository.Abstraction\MyTestApi.Repository.Abstraction.csproj" />
+    <ProjectReference Include="..\MyTestApi.Service.Abstraction\MyTestApi.Service.Abstraction.csproj" />
+  </ItemGroup>
+
+</Project>

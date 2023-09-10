@@ -1,0 +1,207 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MyTestApi.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MyTestApi.Repository.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyTestApi.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyTestApi.Repository.dll": {}
+        }
+      },
+      "MyTestApi.Repository.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/MyTestApi.Repository.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyTestApi.Repository.Abstraction.dll": {}
+        }
+      },
+      "MyTestApi.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MyTestApi.Repository.Abstraction": "1.0.0",
+          "MyTestApi.Service.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyTestApi.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyTestApi.Service.dll": {}
+        }
+      },
+      "MyTestApi.Service.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/MyTestApi.Service.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyTestApi.Service.Abstraction.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+      "sha512": "h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "MyTestApi.Repository/1.0.0": {
+      "type": "project",
+      "path": "../MyTestApi.Repository/MyTestApi.Repository.csproj",
+      "msbuildProject": "../MyTestApi.Repository/MyTestApi.Repository.csproj"
+    },
+    "MyTestApi.Repository.Abstraction/1.0.0": {
+      "type": "project",
+      "path": "../MyTestApi.Repository.Abstraction/MyTestApi.Repository.Abstraction.csproj",
+      "msbuildProject": "../MyTestApi.Repository.Abstraction/MyTestApi.Repository.Abstraction.csproj"
+    },
+    "MyTestApi.Service/1.0.0": {
+      "type": "project",
+      "path": "../MyTestApi.Service/MyTestApi.Service.csproj",
+      "msbuildProject": "../MyTestApi.Service/MyTestApi.Service.csproj"
+    },
+    "MyTestApi.Service.Abstraction/1.0.0": {
+      "type": "project",
+      "path": "../MyTestApi.Service.Abstraction/MyTestApi.Service.Abstraction.csproj",
+      "msbuildProject": "../MyTestApi.Service.Abstraction/MyTestApi.Service.Abstraction.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 7.0.0",
+      "MyTestApi.Repository >= 1.0.0",
+      "MyTestApi.Repository.Abstraction >= 1.0.0",
+      "MyTestApi.Service >= 1.0.0",
+      "MyTestApi.Service.Abstraction >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\babul\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "P:\\Api\\MyTestApi\\MyTestApi.Configuration\\MyTestApi.Configuration.csproj",
+      "projectName": "MyTestApi.Configuration",
+      "projectPath": "P:\\Api\\MyTestApi\\MyTestApi.Configuration\\MyTestApi.Configuration.csproj",
+      "packagesPath": "C:\\Users\\babul\\.nuget\\packages\\",
+      "outputPath": "P:\\Api\\MyTestApi\\MyTestApi.Configuration\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\babul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "P:\\Api\\MyTestApi\\MyTestApi.Repository.Abstraction\\MyTestApi.Repository.Abstraction.csproj": {
+              "projectPath": "P:\\Api\\MyTestApi\\MyTestApi.Repository.Abstraction\\MyTestApi.Repository.Abstraction.csproj"
+            },
+            "P:\\Api\\MyTestApi\\MyTestApi.Repository\\MyTestApi.Repository.csproj": {
+              "projectPath": "P:\\Api\\MyTestApi\\MyTestApi.Repository\\MyTestApi.Repository.csproj"
+            },
+            "P:\\Api\\MyTestApi\\MyTestApi.Service.Abstraction\\MyTestApi.Service.Abstraction.csproj": {
+              "projectPath": "P:\\Api\\MyTestApi\\MyTestApi.Service.Abstraction\\MyTestApi.Service.Abstraction.csproj"
+            },
+            "P:\\Api\\MyTestApi\\MyTestApi.Service\\MyTestApi.Service.csproj": {
+              "projectPath": "P:\\Api\\MyTestApi\\MyTestApi.Service\\MyTestApi.Service.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
