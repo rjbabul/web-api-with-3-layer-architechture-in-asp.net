@@ -9,5 +9,9 @@ namespace MyTestApi.Repository.Abstraction
     public interface IRepository
     {
         string getData();
+
+
+
+        
     }
 }
